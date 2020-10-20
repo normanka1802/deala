@@ -1,0 +1,351 @@
+@font-face {
+    src: url(../fonts/Bauhaus-93-Regular.ttf) format('truetype');
+    font-family: 'bauhaus-regular';;
+    color: white;
+}
+
+@font-face {
+    src: url(../fonts/BauhausC-Light-Regular.otf);
+    font-family: 'bauhaus-light';
+}
+
+body {
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    background: black;
+}
+
+.logo {
+    color: white;
+    margin-left: 30px;
+}
+
+.hamburger-menu {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    list-style: inside;
+}
+
+
+.side-menu-content {
+    display: none;
+    position: fixed;
+    margin: 0;
+    padding:0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: black;
+    background-size: 20000px 200000px;
+    background-repeat: repeat;
+    cursor: pointer;
+    opacity: 0;
+    transition: 2.4s ease-in-out;
+    list-style-type:none;
+    font-family: 'bauhaus-regular';
+    color: white;
+    text-align:center;
+    padding:150px;
+    font-size: 50px;
+  }
+
+.show {
+    display: block;
+    opacity: 1;
+}
+
+iframe {
+    justify-content: center;
+    margin: auto;
+}
+
+.hamburger-menu {
+    color: white;
+    margin-right: 30px;
+}
+
+.hamburger-menu img {
+    width: 30px;
+    background-color: bal
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
+
+.app-logo {
+    font-family: "bauhaus";
+    border-radius: 25px;
+    border-color: white;
+    padding:10px;
+    border-width: 2px;
+
+}
+
+
+
+h1 {
+    font-family: "bauhaus-regular", Arial;
+    font-size: 35px;
+}
+
+.side-menu-content a {
+    font-family: "bauhaus-regular", Arial;
+    font-size: 35px;
+    color:white;
+}
+
+.nav-portfolio a {
+    font-family: "bauhaus-regular", Arial;
+    font-size: 35px;
+    color:white;
+}
+
+
+p {font-family: "bauhaus-light";
+    font-size: 20px;
+
+}
+
+.link {font-family: "bauhaus-light";
+    font-size: 20px;
+    text-decoration: underline;
+}
+.are-you-a-deala {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 2
+}
+
+.deala-text-header {
+    margin: auto;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: black;
+    color: white;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.products img{
+    width: 250px;
+}
+
+.products h1,p {
+    text-align: center;
+    justify-content:center;
+}
+
+
+img {
+    width: 300px;
+    margin: auto;
+}
+
+.app img {
+    width: 280px;
+}
+
+.order-pad img {
+    background: white;
+}
+
+
+
+
+a{
+    font-family: "bauhaus-light";
+    text-decoration: none;
+    padding: 5px;
+    font-size: 35px;
+}
+
+
+
+.deala-mov {
+    height: 50%;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about-us {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.about-us img {
+    filter: grayscale(100%);
+    border-radius: 50%;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+table {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+th {
+    font-family: "bauhaus-regular", Arial;
+    font-size: 20px;
+    height: 10px;
+    border: 1px solid black;
+}
+
+tr {
+    font-family: "bauhaus-light", Arial;
+    font-size: 15px;
+    text-align: right;
+    padding:10px;
+    border: 1px solid black;
+}
+
+td {
+    padding:10px;
+    border: 1px solid black;
+}
+.up {
+    color: green;
+}
+
+.down {
+    color:red;
+}
+
+#code {
+    font-family: "bauhaus-regular", Arial;
+    font-size: 20px;
+}
+
+.comp-logo img {
+    width: 50%;
+}
+
+.analysis {
+    padding-top: 50px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tradingview-widget-container {
+    padding-left: 20px;
+    margin-left: 0px;
+}
+
+.enquiries {
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+@media (min-width:400px) {
+    .are-you-a-deala {
+        display:flex;
+        flex-direction:row;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .deala-text-header {
+        text-align: left;
+    }
+
+    .products {
+       flex-direction: row;
+       align-items: center;
+       padding-top: 40px;
+       padding-bottom: 40px;
+       padding-left: 40px;
+       padding-right: 40px;
+    }
+
+    .product-header {
+        display:none;
+    }
+
+    .app {
+        padding-right:15px;
+    }
+    
+    .api-network {
+        padding-left: 15px;
+        padding-right:15px;
+    }
+
+    .order-pad {
+        padding-left: 15px;
+    }
+
+    .pricing-header {
+        display: none;
+    }
+
+    .pricing {
+        display:flex;
+        flex-direction: row;
+        padding-top: 30px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+  
+
+    .about-us {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about {
+        display: none;
+    }
+
+    }
+
+   
+
+
