@@ -1,8 +1,8 @@
 let stockCode = "BHP";
 
-document.querySelector('.code').addEventListener("click", function(event) {
+document.getElementById('code').addEventListener("click", function(event) {
   
-  const codeValue = document.querySelector('.code').innerText;
+  const codeValue = document.getElementById('code').innerText;
   
   console.log(codeValue);
   
