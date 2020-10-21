@@ -41,7 +41,7 @@
 
                 <tr>
                 <td id="broker"> nabtrade </td>
-                <td id = "code" class = "code">BHP</td>
+                <td id = "code" class = "code"><a href="javascript:changeStock('BHP')">BHP</a></td>
                 <td id = "price">$33.45</td>
                 <td id = "quantity">748</td>
                 <td id = "todays-change"class = "up"> +$235.43</td>
@@ -53,7 +53,7 @@
                 
                 <tr>
                 <td id = "broker">Commsec</td>
-                <td id = "code" class = "code">CBA</td>
+                <td id = "code" class = "code"><a href="javascript:changeStock('CBA')">CBA</a></td>
                 <td id = "price">$73.45</td>
                 <td id = "quantity">438</td>
                 <td id = "todays-change"class = "up"> +$4350.93</td>
@@ -65,7 +65,7 @@
 
                 <tr>
                 <td id = "broker">nabtrade</td>
-                <td id = "code">NAB</td>
+                <td id = "code"><a href="javascript:changeStock('NAB')">NAB</a></td>
                 <td id = "price">$18.45</td>
                 <td id = "quantity">691</td>
                 <td id = "todays-change"class = "down"> -$272.47</td>
@@ -77,7 +77,7 @@
 
                 <tr>
                 <td id = "broker">Westpac</td>
-                <td id = "code">WES</td>
+                <td id = "code"><a href="javascript:changeStock('WES')">WES</a></td>
                 <td id = "price">$42.78</td>
                 <td id = "quantity">1,478</td>
                 <td id = "todays-change"class = "up"> +$3097.18</td>
@@ -101,6 +101,24 @@
       
       <!-- TradingView Widget END -->
      
+      <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/ASX-BHP/technicals/" rel="noopener" target="_blank"><span class="blue-text">Technical Analysis for BHP</span></a> by TradingView</div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+        {
+        "interval": "1m",
+        "width": 425,
+        "isTransparent": false,
+        "height": 450,
+        "symbol": "ASX:BHP",
+        "showIntervalTabs": true,
+        "locale": "en",
+        "colorTheme": "dark"
+      }
+        </script>
+      </div>
+      <!-- TradingView Widget END -->
      
 
       

@@ -328,8 +328,10 @@ td {
         justify-content: center;
         text-align: center;
         align-items: center;
-
     }
+
+  
+
     .about-us {
         display: flex;
         flex-direction: row;
